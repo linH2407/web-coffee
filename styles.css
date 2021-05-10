@@ -1,0 +1,116 @@
+h1,h2{
+	color:brown;
+	font-family: cursive;
+	text-align: center;
+}
+
+ul{
+	list-style-type: circle;
+	/*list-style-image: url("star.png");*/	
+
+}
+/*img{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}*/
+/*figcaption{
+	text-align: center;
+}*/
+
+body{
+	font-family: cursive;
+	margin:0 auto;
+	width: 960px;
+}
+p{
+	text-indent: 15px;
+}
+a:link,a:visited{
+	text-decoration: none;
+	color:blue;
+	font-weight : bold;
+}
+a:hover{
+	color: red;
+}
+nav ul{
+	list-style-type: none;
+	padding: 0;
+	/*margin-top: 20px;*/
+}
+nav li{
+	/* display:inline; */
+	float: left; 
+}
+nav a:link,nav a:visited{
+	background: #4D100B;
+	color: white;
+	display: block;
+	width: 160px;
+	text-align: center;
+	padding: 10px 0;
+}
+nav a:hover{
+	background-color: black;
+}
+aside{
+	width: 310px;
+	float: right;
+	text-align: center;
+	background-color: tan;
+	font-weight: bold;
+	padding: 20px;
+	margin-left: 20px;
+}
+
+.photo-left{
+	float: left;
+	margin-right: 20px;
+}
+.photo-right{
+	float: right;
+	margin-left: 20px;
+}
+header{
+	background-image: url("images/coffee-beans.jpg");
+	height: 100px;
+	margin-bottom: 70px;
+	margin-top: 30px;
+}
+header h1{
+	color: white;
+	text-align: left;
+	margin-left: 30px;
+	/*margin-top: auto;
+	margin-bottom: auto;*/
+	font-size: 50px;
+}
+footer nav a:link,footer nav a:visited{
+	color: gray;
+	text-decoration: none;
+	display: block;
+	width: 160px;
+	text-align: center;
+	background-color: white;
+}
+footer nav a:hover{
+	color: black;
+}
+td,th{
+	border: 2px solid brown;
+	padding: 10px;
+}
+table{
+	border-collapse: collapse;
+	background-color: white;
+	margin-bottom: 20px;
+	
+	/*border-spacing: 0;*/
+}
+/*fieldset{
+	width: 350px;
+	background-color: brown;
+}*/
+
+
